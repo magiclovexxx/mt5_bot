@@ -1,0 +1,38 @@
+=== THỐNG KÊ ĐIỂM ĐẢO CHIỀU (M15 kết hợp M1) ===
+
+Tổng số điểm đảo chiều M15 trong ngày: 60 (Tăng: 30, Giảm: 30)
+
+1. XÁC SUẤT ĐẢO CHIỀU THEO PHIÊN (SESSION):
+ - Asian Session (00:00-08:00): 27 lần (45.0%)
+ - NY Session (15:00-24:00): 23 lần (38.33%)
+ - London Session (08:00-15:00): 10 lần (16.67%)
+
+2. KHUNG GIỜ CỤ THỂ XẢY RA NHIỀU NHẤT (Top 5):
+ - 3:00 - 3:59 : 9 lần (15.0%)
+ - 22:00 - 22:59 : 8 lần (13.33%)
+ - 1:00 - 1:59 : 6 lần (10.0%)
+ - 17:00 - 17:59 : 6 lần (10.0%)
+ - 4:00 - 4:59 : 5 lần (8.33%)
+
+3. RSI M15 KHI ĐẢO CHIỀU TĂNG (Bắt đáy):
+ - RSI M15 trung bình: 35.11
+ - Phổ biến nhất (75% trường hợp) RSI M15 rơi vào khoảng: 17.42 đến 49.48
+
+4. RSI M1 KHI ĐẢO CHIỀU TĂNG (Timing ở khung nhỏ):
+ - RSI M1 Min trung bình trong vùng nến M15: 25.04
+ - (Điều này cho thấy ở khung M1, RSI thường bị đẩy xuống cực thấp trước khi rút chân tăng)
+
+5. RSI M15 KHI ĐẢO CHIỀU GIẢM (Bắt đỉnh):
+ - RSI M15 trung bình: 65.96
+ - Phổ biến nhất (75% trường hợp) RSI M15 rơi vào khoảng: 60.55 đến 74.42
+
+6. RSI M1 KHI ĐẢO CHIỀU GIẢM:
+ - RSI M1 Max trung bình trong vùng nến M15: 73.23
+
+7. ĐỘ BIẾN ĐỘNG (VOLATILITY / ATR):
+ - Số điểm đảo chiều đi kèm với mức ATR tăng đột biến (Cao hơn 1.5x trung bình): 4 lần (6.67%)
+ - Nhận xét: Phần lớn các điểm đảo chiều diễn ra trong lúc thị trường có độ biến động bình thường (sideway/ít tin tức).
+
+8. BOLLINGER BANDS (BB) BREAKOUT KHI ĐẢO CHIỀU:
+ - Số lần đảo chiều xảy ra khi giá M15 đang đóng NẰM NGOÀI BB: 0 lần (0.0%)
+ - Số lần ở khung M1 (nến timing) đâm VỠ RA NGOÀI BB trước khi rút chân: 0 lần (0.0%)
