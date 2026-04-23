@@ -1,38 +1,53 @@
-=== THỐNG KÊ ĐIỂM ĐẢO CHIỀU (M15 kết hợp M1) ===
+=== THỐNG KÊ ĐẢO CHIỀU NÂNG CAO (Khung M15 chủ đạo) ===
 
-Tổng số điểm đảo chiều M15 trong ngày: 60 (Tăng: 30, Giảm: 30)
+Tổng số điểm đảo chiều M15: 60 (Đáy: 30, Đỉnh: 30)
 
-1. XÁC SUẤT ĐẢO CHIỀU THEO PHIÊN (SESSION):
- - Asian Session (00:00-08:00): 27 lần (45.0%)
- - NY Session (15:00-24:00): 23 lần (38.33%)
- - London Session (08:00-15:00): 10 lần (16.67%)
+1. TÍN HIỆU KHỐI LƯỢNG (VOLUME SPIKE):
+ - Số lần đảo chiều kèm Volume đột biến: 11 lần (18.33%)
 
-2. KHUNG GIỜ CỤ THỂ XẢY RA NHIỀU NHẤT (Top 5):
- - 3:00 - 3:59 : 9 lần (15.0%)
- - 22:00 - 22:59 : 8 lần (13.33%)
- - 1:00 - 1:59 : 6 lần (10.0%)
- - 17:00 - 17:59 : 6 lần (10.0%)
- - 4:00 - 4:59 : 5 lần (8.33%)
+2. PHÂN KỲ RSI (DIVERGENCE):
+ - Số lần xuất hiện phân kỳ tại đỉnh/đáy: 24 lần (40.0%)
 
-3. RSI M15 KHI ĐẢO CHIỀU TĂNG (Bắt đáy):
- - RSI M15 trung bình: 35.11
- - Phổ biến nhất (75% trường hợp) RSI M15 rơi vào khoảng: 17.42 đến 49.48
+3. MÔ HÌNH NẾN (PRICE ACTION PATTERNS):
+ - Pin Bar: 25 lần (41.67%)
+ - Engulfing: 8 lần (13.33%)
 
-4. RSI M1 KHI ĐẢO CHIỀU TĂNG (Timing ở khung nhỏ):
- - RSI M1 Min trung bình trong vùng nến M15: 25.04
- - (Điều này cho thấy ở khung M1, RSI thường bị đẩy xuống cực thấp trước khi rút chân tăng)
+4. CHỈ SỐ STOCHASTIC (9,3,3):
+ - Stochastic K trung bình tại ĐÁY: 28.18
+ - Stochastic K trung bình tại ĐỈNH: 81.6
 
-5. RSI M15 KHI ĐẢO CHIỀU GIẢM (Bắt đỉnh):
- - RSI M15 trung bình: 65.96
- - Phổ biến nhất (75% trường hợp) RSI M15 rơi vào khoảng: 60.55 đến 74.42
+5. RSI & BOLLINGER BANDS:
+ - RSI M15 trung bình tại Đáy: 34.42
+ - RSI M15 trung bình tại Đỉnh: 65.96
+ - Tỷ lệ vỡ dải Bollinger Bands: 38 lần (63.33%)
 
-6. RSI M1 KHI ĐẢO CHIỀU GIẢM:
- - RSI M1 Max trung bình trong vùng nến M15: 73.23
+6. PHÂN TÍCH KHUNG GIỜ CHI TIẾT:
+ - Giờ hay tạo ĐÁY: 22:00, 01:00, 03:00
+ - Giờ hay tạo ĐỈNH: 03:00, 04:00, 22:00
 
-7. ĐỘ BIẾN ĐỘNG (VOLATILITY / ATR):
- - Số điểm đảo chiều đi kèm với mức ATR tăng đột biến (Cao hơn 1.5x trung bình): 4 lần (6.67%)
- - Nhận xét: Phần lớn các điểm đảo chiều diễn ra trong lúc thị trường có độ biến động bình thường (sideway/ít tin tức).
+=== THỐNG KÊ ĐẢO CHIỀU NÂNG CAO (Khung H1 chủ đạo) ===
 
-8. BOLLINGER BANDS (BB) BREAKOUT KHI ĐẢO CHIỀU:
- - Số lần đảo chiều xảy ra khi giá M15 đang đóng NẰM NGOÀI BB: 0 lần (0.0%)
- - Số lần ở khung M1 (nến timing) đâm VỠ RA NGOÀI BB trước khi rút chân: 0 lần (0.0%)
+Tổng số điểm đảo chiều H1: 1031 (Đáy: 517, Đỉnh: 514)
+
+1. TÍN HIỆU KHỐI LƯỢNG (VOLUME SPIKE):
+ - Số lần đảo chiều kèm Volume đột biến: 312 lần (30.26%)
+
+2. PHÂN KỲ RSI (DIVERGENCE):
+ - Số lần xuất hiện phân kỳ tại đỉnh/đáy: 252 lần (24.44%)
+
+3. MÔ HÌNH NẾN (PRICE ACTION PATTERNS):
+ - Pin Bar: 392 lần (38.02%)
+ - Engulfing: 97 lần (9.41%)
+
+4. CHỈ SỐ STOCHASTIC (9,3,3):
+ - Stochastic K trung bình tại ĐÁY: 34.66
+ - Stochastic K trung bình tại ĐỈNH: 76.77
+
+5. RSI & BOLLINGER BANDS:
+ - RSI H1 trung bình tại Đáy: 43.25
+ - RSI H1 trung bình tại Đỉnh: 61.79
+ - Tỷ lệ vỡ dải Bollinger Bands: 534 lần (51.79%)
+
+6. PHÂN TÍCH KHUNG GIỜ CHI TIẾT:
+ - Giờ hay tạo ĐÁY: 01:00, 17:00, 03:00
+ - Giờ hay tạo ĐỈNH: 01:00, 17:00, 23:00

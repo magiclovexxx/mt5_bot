@@ -1,5 +1,8 @@
-venv/
-.venv/
-__pycache__/
-*.csv
 data/
+__pycache__/
+*.pyc
+results/*.csv
+results/*.txt
+!results/GOLD_Trading_Strategy.txt
+venv/
+.env

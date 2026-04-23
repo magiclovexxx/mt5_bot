@@ -1,0 +1,22 @@
+================================================================
+   BẢN TỔNG HỢP CHIẾN LƯỢC BẮT ĐỈNH/ĐÁY GOLD (DỰA TRÊN THỐNG KÊ)
+================================================================
+
+1. PHÂN TÍCH TỈ LỆ R:R (RISK/REWARD):
+ - Tỉ lệ R:R trung bình tiềm năng: 1:3.6
+ - Xác suất đạt R:R 1:1: 82.44%
+ - Xác suất đạt R:R 1:2: 64.5%
+ - Nhận xét: Với tỉ lệ thắng R:R 1:1 trên 82.44%, hệ thống có kỳ vọng dương.
+
+2. VÙNG GIÁ QUAN TRỌNG (SUPPORT/RESISTANCE):
+ - Tỷ lệ đảo chiều tại các mức Pivot: 49 lần (4.75%)
+
+3. CÁC TÍN HIỆU ĐỒNG THUẬN (CONFLUENCE):
+ - Phân kỳ RSI: 24.44%
+ - Khối lượng đột biến: 30.26%
+ - Nến Pin Bar/Engulfing: 47.43%
+
+4. BỘ QUY TẮC VÀNG & TIMING:
+ - Ưu tiên khung giờ: 22:00, 01:00, 17:00.
+ - SL: Đặt dưới đáy/trên đỉnh + ATR * 0.5.
+ - TP: Tối thiểu 1:1.5 hoặc tại các mức Pivot kế tiếp.
