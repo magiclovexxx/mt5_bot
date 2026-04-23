@@ -51,3 +51,91 @@ Tổng số điểm đảo chiều H1: 1031 (Đáy: 517, Đỉnh: 514)
 6. PHÂN TÍCH KHUNG GIỜ CHI TIẾT:
  - Giờ hay tạo ĐÁY: 01:00, 17:00, 03:00
  - Giờ hay tạo ĐỈNH: 01:00, 17:00, 23:00
+
+==================================================
+PHẦN BỔ SUNG: PHÂN TÍCH XÁC SUẤT ĐẢO CHIỀU
+==================================================
+
+=== XÁC SUẤT ĐẢO CHIỀU KHI CÓ TÍN HIỆU (M15) ===
+Công thức: P(Đảo chiều | Tín hiệu) - Nếu tín hiệu xuất hiện, bao nhiêu % sẽ là đỉnh/đáy ngày.
+ - Volume Spike: 4.69% (Thành công 358/7626 lần xuất hiện)
+ - RSI Divergence: 100.0% (Thành công 466/466 lần xuất hiện)
+ - Pin Bar: 2.2% (Thành công 383/17410 lần xuất hiện)
+ - Engulfing: 2.5% (Thành công 130/5194 lần xuất hiện)
+ - Bollinger Bands Breakout: 5.7% (Thành công 715/12547 lần xuất hiện)
+
+=== XÁC SUẤT ĐẢO CHIỀU KHI CÓ TÍN HIỆU (H1) ===
+Công thức: P(Đảo chiều | Tín hiệu) - Nếu tín hiệu xuất hiện, bao nhiêu % sẽ là đỉnh/đáy ngày.
+ - Volume Spike: 17.38% (Thành công 312/1795 lần xuất hiện)
+ - RSI Divergence: 100.0% (Thành công 252/252 lần xuất hiện)
+ - Pin Bar: 9.15% (Thành công 393/4296 lần xuất hiện)
+ - Engulfing: 8.71% (Thành công 111/1274 lần xuất hiện)
+ - Bollinger Bands Breakout: 19.23% (Thành công 568/2953 lần xuất hiện)
+
+==================================================
+PHẦN BỔ SUNG: PHÂN TÍCH XÁC SUẤT ĐẢO CHIỀU
+==================================================
+
+=== XÁC SUẤT ĐẢO CHIỀU KHI CÓ TÍN HIỆU (M15) ===
+Công thức: P(Đảo chiều | Tín hiệu) - Nếu tín hiệu xuất hiện, bao nhiêu % sẽ là đỉnh/đáy ngày.
+ - Volume Spike: 4.69% (Thành công 358/7626 lần xuất hiện)
+ - RSI Divergence: 14.12% (Thành công 337/2387 lần xuất hiện) (Khoảng cách giá TB: 2.05, RSI Delta TB: 3.85)
+ - Pin Bar: 2.2% (Thành công 383/17410 lần xuất hiện)
+ - Engulfing: 2.5% (Thành công 130/5194 lần xuất hiện)
+ - Bollinger Bands Breakout: 5.7% (Thành công 715/12547 lần xuất hiện)
+
+=== XÁC SUẤT ĐẢO CHIỀU KHI CÓ TÍN HIỆU (H1) ===
+Công thức: P(Đảo chiều | Tín hiệu) - Nếu tín hiệu xuất hiện, bao nhiêu % sẽ là đỉnh/đáy ngày.
+ - Volume Spike: 17.38% (Thành công 312/1795 lần xuất hiện)
+ - RSI Divergence: 32.59% (Thành công 191/586 lần xuất hiện) (Khoảng cách giá TB: 4.31, RSI Delta TB: 4.01)
+ - Pin Bar: 9.15% (Thành công 393/4296 lần xuất hiện)
+ - Engulfing: 8.71% (Thành công 111/1274 lần xuất hiện)
+ - Bollinger Bands Breakout: 19.23% (Thành công 568/2953 lần xuất hiện)
+
+==================================================
+PHẦN BỔ SUNG: PHÂN TÍCH XÁC SUẤT ĐẢO CHIỀU
+==================================================
+
+=== XÁC SUẤT ĐẢO CHIỀU KHI CÓ TÍN HIỆU (M15) ===
+Công thức: P(Đảo chiều | Tín hiệu) - Nếu tín hiệu xuất hiện, bao nhiêu % sẽ là đỉnh/đáy ngày.
+ - Volume Spike: 4.7% (Thành công 358/7625 lần xuất hiện)
+ - RSI Divergence: 14.12% (Thành công 337/2387 lần xuất hiện) (Khoảng cách giá TB: 2.05, RSI Delta TB: 3.85)
+ - Pin Bar: 2.2% (Thành công 383/17409 lần xuất hiện)
+ - Engulfing: 2.5% (Thành công 130/5195 lần xuất hiện)
+ - Bollinger Bands Breakout: 5.7% (Thành công 715/12547 lần xuất hiện)
+
+=== XÁC SUẤT ĐẢO CHIỀU KHI CÓ TÍN HIỆU (H1) ===
+Công thức: P(Đảo chiều | Tín hiệu) - Nếu tín hiệu xuất hiện, bao nhiêu % sẽ là đỉnh/đáy ngày.
+ - Volume Spike: 17.38% (Thành công 312/1795 lần xuất hiện)
+ - RSI Divergence: 32.59% (Thành công 191/586 lần xuất hiện) (Khoảng cách giá TB: 4.31, RSI Delta TB: 4.01)
+ - Pin Bar: 9.15% (Thành công 393/4296 lần xuất hiện)
+ - Engulfing: 8.71% (Thành công 111/1274 lần xuất hiện)
+ - Bollinger Bands Breakout: 19.23% (Thành công 568/2953 lần xuất hiện)
+
+==================================================
+PHẦN BỔ SUNG: PHÂN TÍCH XÁC SUẤT M1 (Dành cho Scalping)
+==================================================
+
+=== XÁC SUẤT ĐẢO CHIỀU KHI CÓ TÍN HIỆU (M1) ===
+Công thức: P(Đảo chiều | Tín hiệu) - Nếu tín hiệu xuất hiện, bao nhiêu % sẽ là đỉnh/đáy ngày.
+ - Volume Spike: 0.6% (Thành công 12/1999 lần xuất hiện)
+ - RSI Divergence: 1.23% (Thành công 25/2031 lần xuất hiện) (Khoảng cách giá TB: 1.21, RSI Delta TB: 3.5)
+ - Pin Bar: 0.24% (Thành công 29/12232 lần xuất hiện)
+ - Engulfing: 0.18% (Thành công 8/4415 lần xuất hiện)
+ - Bollinger Bands Breakout: 0.48% (Thành công 43/9014 lần xuất hiện)
+
+=== XÁC SUẤT ĐẢO CHIỀU KHI CÓ TÍN HIỆU (M15) ===
+Công thức: P(Đảo chiều | Tín hiệu) - Nếu tín hiệu xuất hiện, bao nhiêu % sẽ là đỉnh/đáy ngày.
+ - Volume Spike: 4.7% (Thành công 358/7624 lần xuất hiện)
+ - RSI Divergence: 14.12% (Thành công 337/2387 lần xuất hiện) (Khoảng cách giá TB: 2.05, RSI Delta TB: 3.85)
+ - Pin Bar: 2.2% (Thành công 383/17409 lần xuất hiện)
+ - Engulfing: 2.5% (Thành công 130/5195 lần xuất hiện)
+ - Bollinger Bands Breakout: 5.7% (Thành công 715/12547 lần xuất hiện)
+
+=== XÁC SUẤT ĐẢO CHIỀU KHI CÓ TÍN HIỆU (H1) ===
+Công thức: P(Đảo chiều | Tín hiệu) - Nếu tín hiệu xuất hiện, bao nhiêu % sẽ là đỉnh/đáy ngày.
+ - Volume Spike: 17.38% (Thành công 312/1795 lần xuất hiện)
+ - RSI Divergence: 32.59% (Thành công 191/586 lần xuất hiện) (Khoảng cách giá TB: 4.31, RSI Delta TB: 4.01)
+ - Pin Bar: 9.15% (Thành công 393/4295 lần xuất hiện)
+ - Engulfing: 8.71% (Thành công 111/1274 lần xuất hiện)
+ - Bollinger Bands Breakout: 19.23% (Thành công 568/2953 lần xuất hiện)

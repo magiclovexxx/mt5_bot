@@ -46,20 +46,43 @@ def analyze_volatility_and_reversals(df):
             df.loc[group['high'].idxmax(), 'Reversal_Type'] = 'Đỉnh'
             df.loc[group['low'].idxmin(), 'Reversal_Type'] = 'Đáy'
 
-    # 5. RSI Divergence
+    # 5. RSI Divergence (Quét trên toàn bộ nến để tính xác suất thực tế)
     df['RSI_Div'] = 'None'
+    df['Div_Price_Diff'] = 0.0
+    df['Div_RSI_Diff'] = 0.0
+    
     for i in range(30, len(df)):
         current_idx = df.index[i]
-        if df.iloc[i]['Reversal_Type'] == 'Đỉnh':
+        curr_rsi = df.iloc[i]['RSI_14']
+        curr_high = df.iloc[i]['high']
+        curr_low = df.iloc[i]['low']
+        
+        # Chỉ xét phân kỳ khi RSI ở vùng cực trị (Overbought > 60 hoặc Oversold < 40)
+        # Bearish Divergence (Phân kỳ đỉnh)
+        if curr_rsi > 60:
             prev_window = df.iloc[i-30:i]
             prev_peak_idx = prev_window['high'].idxmax()
-            if df.iloc[i]['high'] > df.loc[prev_peak_idx, 'high'] and df.iloc[i]['RSI_14'] < df.loc[prev_peak_idx, 'RSI_14']:
+            prev_high = df.loc[prev_peak_idx, 'high']
+            prev_rsi = df.loc[prev_peak_idx, 'RSI_14']
+            
+            # Giá tạo đỉnh cao hơn, nhưng RSI thấp hơn
+            if curr_high > prev_high and curr_rsi < prev_rsi:
                 df.loc[current_idx, 'RSI_Div'] = 'Bearish Divergence'
-        elif df.iloc[i]['Reversal_Type'] == 'Đáy':
+                df.loc[current_idx, 'Div_Price_Diff'] = round(curr_high - prev_high, 2)
+                df.loc[current_idx, 'Div_RSI_Diff'] = round(prev_rsi - curr_rsi, 2)
+                
+        # Bullish Divergence (Phân kỳ đáy)
+        elif curr_rsi < 40:
             prev_window = df.iloc[i-30:i]
             prev_valley_idx = prev_window['low'].idxmin()
-            if df.iloc[i]['low'] < df.loc[prev_valley_idx, 'low'] and df.iloc[i]['RSI_14'] > df.loc[prev_valley_idx, 'RSI_14']:
+            prev_low = df.loc[prev_valley_idx, 'low']
+            prev_rsi = df.loc[prev_valley_idx, 'RSI_14']
+            
+            # Giá tạo đáy thấp hơn, nhưng RSI cao hơn
+            if curr_low < prev_low and curr_rsi > prev_rsi:
                 df.loc[current_idx, 'RSI_Div'] = 'Bullish Divergence'
+                df.loc[current_idx, 'Div_Price_Diff'] = round(prev_low - curr_low, 2)
+                df.loc[current_idx, 'Div_RSI_Diff'] = round(curr_rsi - prev_rsi, 2)
 
     # 6. Tỉ lệ R:R (Backtest mô phỏng)
     summary = []

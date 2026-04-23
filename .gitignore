@@ -1,8 +1,9 @@
-data/
+venv/
 __pycache__/
 *.pyc
-results/*.csv
-results/*.txt
-!results/GOLD_Trading_Strategy.txt
-venv/
+data/*.csv
 .env
+results/GOLD_Backtest_Report.txt
+results/GOLD_Reversal_Signatures.txt
+results/GOLD_Cross_Statistics.txt
+results/GOLD_Trading_Strategy.txt

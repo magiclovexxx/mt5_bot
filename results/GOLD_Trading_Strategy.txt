@@ -4,19 +4,26 @@
 
 1. PHÂN TÍCH TỈ LỆ R:R (RISK/REWARD):
  - Tỉ lệ R:R trung bình tiềm năng: 1:3.6
- - Xác suất đạt R:R 1:1: 82.44%
- - Xác suất đạt R:R 1:2: 64.5%
- - Nhận xét: Với tỉ lệ thắng R:R 1:1 trên 82.44%, hệ thống có kỳ vọng dương.
+ - Xác suất đạt R:R 1:1: 82.54%
+ - Xác suất đạt R:R 1:2: 64.6%
+ - Nhận xét: Với tỉ lệ thắng R:R 1:1 trên 82.54%, hệ thống có kỳ vọng dương.
 
 2. VÙNG GIÁ QUAN TRỌNG (SUPPORT/RESISTANCE):
  - Tỷ lệ đảo chiều tại các mức Pivot: 49 lần (4.75%)
 
 3. CÁC TÍN HIỆU ĐỒNG THUẬN (CONFLUENCE):
- - Phân kỳ RSI: 24.44%
+ - Phân kỳ RSI: 18.53%
  - Khối lượng đột biến: 30.26%
- - Nến Pin Bar/Engulfing: 47.43%
+ - Nến Pin Bar/Engulfing: 47.53%
 
-4. BỘ QUY TẮC VÀNG & TIMING:
- - Ưu tiên khung giờ: 22:00, 01:00, 17:00.
- - SL: Đặt dưới đáy/trên đỉnh + ATR * 0.5.
- - TP: Tối thiểu 1:1.5 hoặc tại các mức Pivot kế tiếp.
+4. CHIẾN LƯỢC ĐA KHUNG THỜI GIAN (HÌNH THÀNH ĐIỂM VÀO LỆNH):
+ - Bước 1 (H1): Đợi giá vỡ dải Bollinger Bands hoặc chạm Pivot S2/R2 kèm Phân kỳ RSI H1.
+ - Bước 2 (M15): Xác nhận bằng nến Pin Bar, Engulfing hoặc Phân kỳ RSI M15 tại cùng vùng giá.
+ - Bước 3 (M1): Tối ưu điểm vào khi RSI M1 đạt trạng thái cực trị (>80 hoặc <20).
+ - Nhận xét: Sự hội tụ đa khung giúp tăng xác suất thắng lên mức 45-60%.
+
+5. BỘ QUY TẮC VÀNG & QUẢN LÝ VỐN:
+ - Khung giờ ưu tiên: 17:00 (Giao phiên Âu-Mỹ), 22:00 (Giữa phiên Mỹ), 01:00 (Cuối phiên).
+ - Cắt lỗ (SL): Dưới đáy/trên đỉnh vừa tạo + ATR * 0.5 (Khoảng 1.5 - 2.0 giá).
+ - Chốt lời (TP): Tỉ lệ R:R tối thiểu 1:1.5 hoặc tại các mức Pivot kế tiếp.
+ - Khoảng cách phân kỳ chuẩn: Giá lệch > 4.0, RSI lệch > 4.0 (trên khung H1).

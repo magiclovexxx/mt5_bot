@@ -12,6 +12,7 @@ def initialize_mt5():
 def fetch_data(symbol, timeframe_str, years=2):
     timeframe_mapping = {
         "M1": mt5.TIMEFRAME_M1,
+        "M5": mt5.TIMEFRAME_M5,
         "M15": mt5.TIMEFRAME_M15,
         "H1": mt5.TIMEFRAME_H1,
         "H4": mt5.TIMEFRAME_H4,
