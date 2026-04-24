@@ -1,5 +1,8 @@
 import pandas as pd
-import pandas_ta as ta
+try:
+    import pandas_ta as ta
+except ImportError:
+    ta = None
 
 def apply_indicators(df):
     """
